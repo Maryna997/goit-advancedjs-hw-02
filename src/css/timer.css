@@ -1,0 +1,40 @@
+
+.timer-container button {
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 8px 16px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    background-color: rgba(78, 117, 255, 1);
+    color: white;
+}
+
+.timer-container button:hover {
+    background-color: rgba(108, 140, 255, 1);
+}
+
+.timer-container button:disabled {
+    background-color: rgba(207, 207, 207, 1);
+    color: rgba(152, 152, 152, 1);
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.field .value {
+    font-size: 32px;
+}
+
+.field .label {
+    font-size: 16x;
+    text-transform: uppercase;
+}
+
+.timer {
+display: flex;
+justify-content: start;
+margin-top: 16px;
+gap: 16px; }
